@@ -23,7 +23,7 @@
       "container_name": "pgadmin",
       "restart": "unless-stopped",
       "ports": [
-        "5555:80"
+        "5556:80"
       ],
       "environment": [
         "PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL:-admin@admin.com}",
